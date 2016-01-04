@@ -32,7 +32,7 @@
         //slideUp and remove h3.active + p from DOM
         $(".remove-tab").click(function(){
             //delete obj by "title" from array
-            var delIndex = undefined;
+            var delIndex = 0;
             var active =  $(".active");
             $.grep(countries, function(elem, n){
                 if (elem.title === active.html()) {
